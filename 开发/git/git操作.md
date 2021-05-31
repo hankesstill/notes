@@ -46,6 +46,7 @@ git rebase -i 	#压缩历史
 ```shell
 git remote add 	#添加远程仓库
 git push	#推送至远程仓库
+	git push origin feature-A	#提交本地分支feature-A到远程(远程没有 feature-A 分支，并且本地已经切换到 feature-A分支)  远程新建名为 feature-A分支，并push代码
 ```
 
 ## 从远程仓库获取
